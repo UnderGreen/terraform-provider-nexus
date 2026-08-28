@@ -5,6 +5,8 @@ description: |-
   Use this resource to configure Nexus system HTTP/HTTPS proxy settings
 ---
 # Resource nexus_http_client
+~> **PRO Feature** (Nexus Repository Pro)
+
 Use this resource to configure Nexus system HTTP/HTTPS proxy settings (`GET/PUT/DELETE /service/rest/v1/http`). There is exactly one HTTP configuration per Nexus instance.
 ## Example Usage
 ```terraform

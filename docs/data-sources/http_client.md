@@ -5,6 +5,8 @@ description: |-
   Use this data source to query Nexus system HTTP/HTTPS proxy settings
 ---
 # Data Source nexus_http_client
+~> **PRO Feature** (Nexus Repository Pro)
+
 Use this data source to query Nexus system HTTP/HTTPS proxy settings
 ## Example Usage
 ```terraform
